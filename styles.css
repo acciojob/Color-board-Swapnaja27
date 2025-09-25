@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+body{
+	background-color:black;
+}
+    .container{
+	display: grid;
+    grid-template-columns: repeat(24,20px);
+    gap:1px;
+}
+.square{
+    width:20px;
+    height:20px;
+    background-color:grey;
+    
+}
