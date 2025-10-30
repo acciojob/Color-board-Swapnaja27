@@ -3,6 +3,7 @@ let div = document.querySelector(".container"); // get single container
 for (let i = 0; i <= 800; i++) {
     let square = document.createElement("div");
     square.classList.add("square");
+	square.style.backgroundColor = "rgb(29, 29, 29)";
     
 square.addEventListener('mouseover',()=>{
 	square.style.transition="none";

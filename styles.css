@@ -7,9 +7,12 @@ body{
     grid-template-columns: repeat(24,20px);
     gap:1px;
 }
-.square{
-    width:20px;
-    height:20px;
-    background-color:grey;
-    
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(29, 29, 29);
+  transition: background-color 1s ease;
+  display: inline-block;
+  margin: 1px;
 }
+
