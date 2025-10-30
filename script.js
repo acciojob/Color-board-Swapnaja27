@@ -6,10 +6,11 @@ for (let i = 0; i <= 800; i++) {
 	square.style.backgroundColor = "rgb(29, 29, 29)";
     
 square.addEventListener('mouseover',()=>{
-	square.style.transition="none";
+	 square.style.transition = "none"; 
+    square.style.backgroundColor = "green"; 
 })
 square.addEventListener('mouseout',()=>{
-	square.style.backgroundColor="green";
+	square.style.backgroundColor = "rgb(29, 29, 29)";
 	square.style.transition="background-color 1s ease";
 })
 	div.appendChild(square);
